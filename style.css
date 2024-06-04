@@ -1,8 +1,14 @@
-
+p{
+    margin-top: -18px;
+    text-align: center;
+}
 .btn{
     color: red;
     margin-top: 40px;
    margin-left: 30px;
+}
+.navbar{
+    position: fixed;
 }
 .form-control{
     margin-left: 450px;
@@ -26,10 +32,11 @@ a{
     margin-left: 25px;
 }
 .container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    float: left;
     margin-top: 10px;
-    margin-left: 150px; 
-    height: 495px;
+    margin-left: 40px; 
+    height: 600px;
     width: 250px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
@@ -37,6 +44,118 @@ a{
 
 #check{
     margin-left: 50px;
-    margin-top: 5px;
-    
+    margin-top: 5px;    
+}
+.container1{
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    margin-top: 35px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+img{
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 140px;
+    width: 100px;
+}
+.amount{
+    margin-right: 10px;
+    text-align: right;
+    text-decoration: solid;
+    font-size: larger;
+    margin-top: -20px;
+}
+.container2{
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container3{
+    /* border: 2px solid black; */
+    margin-left: 500px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container4{
+    /* border: 2px solid black; */
+    margin-left: 745px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container5{
+    /* border: 2px solid black; */
+    margin-left: 970px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container6{
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    margin-top: 55px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container7{
+    /* border: 2px solid black; */
+    margin-left: 250px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container8{
+    /* border: 2px solid black; */
+    margin-left: 495px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container9{
+    /* border: 2px solid black; */
+    margin-left: 740px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.container10{
+    /* border: 2px solid black; */
+    margin-left: 965px;
+    margin-top: -250px;
+    height: 250px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+    border-radius: 2px;
+}
+.main{
+        /* border: 1px solid black; */
+        float: left;
+        margin-top: 10px;
+        margin-left: 50px; 
+        height: 700px;
+        width: 1100px;
+        /* box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
+        border-radius: 2px; */
 }
