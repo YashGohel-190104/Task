@@ -1,21 +1,30 @@
+body{
+    background-color: rgb(186, 214, 214);
+}
 p{
-    margin-top: -18px;
-    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .btn{
     color: red;
-    margin-top: 40px;
+    margin-top: 30px;
    margin-left: 30px;
+}
+.buton{
+   margin-top: -15px;
+   margin-left: 70px;
 }
 .navbar{
     position: fixed;
+    background-color: rgb(69, 103, 103);
 }
 .form-control{
     margin-left: 450px;
     width: 250px;
 }
 .fa-solid{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    justify-content: space-between;
     color: black;
 }
 .fa-solid:hover{
@@ -40,8 +49,12 @@ a{
     width: 250px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
 }
-
+.container:hover{
+    cursor: pointer;
+    color: darkcyan;
+}
 #check{
     margin-left: 50px;
     margin-top: 5px;    
@@ -54,6 +67,11 @@ a{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container1:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 img{
     margin-left: 45px;
@@ -76,6 +94,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container2:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container3{
     /* border: 2px solid black; */
@@ -85,6 +108,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container3:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container4{
     /* border: 2px solid black; */
@@ -94,6 +122,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container4:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container5{
     /* border: 2px solid black; */
@@ -103,6 +136,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container5:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container6{
     /* border: 2px solid black; */
@@ -112,6 +150,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container6:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container7{
     /* border: 2px solid black; */
@@ -121,6 +164,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container7:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container8{
     /* border: 2px solid black; */
@@ -130,6 +178,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container8:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container9{
     /* border: 2px solid black; */
@@ -139,6 +192,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container9:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .container10{
     /* border: 2px solid black; */
@@ -148,6 +206,11 @@ img{
     width: 200px;
     box-shadow: 1px 1px 1px 1px  rgb(132, 105, 105);
     border-radius: 2px;
+    transition: 1s;
+}
+.container10:hover{
+   transform: scale(1.3);
+   z-index: 2;
 }
 .main{
         /* border: 1px solid black; */

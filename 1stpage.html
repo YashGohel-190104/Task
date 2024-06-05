@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
               </li>
             </ul> -->
             <a class="navbar-brand" style="margin-left: 1250px;" href="#">Product</a>
-           <a href="/cartPage.html"><i class="fa-solid fa-cart-shopping"></i></a>
+           <a href="/cartPage.html"><i class="fa-solid fa-cart-shopping"><span>0</span></i></a>
           </div>
         </div>
       </nav><br>
@@ -38,11 +38,11 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       <div class="container">
-       <h3 class="font">colour</h3>
-       <input type="checkbox" name="" value="Red" id="check">   Red<br>
-       <input type="checkbox" name="" value="Blue" id="check">   Blue<br>
-       <input type="checkbox" name="" value="Green" id="check">   Green<br>
-       <input type="checkbox" name="" value="Yellow" id="check">   Yellow<br>
+          <h3 class="font">colour</h3>
+            <input type="checkbox" name="" value="Red" id="check">   Red<br>
+            <input type="checkbox" name="" value="Blue" id="check">   Blue<br>
+            <input type="checkbox" name="" value="Green" id="check">   Green<br>
+            <input type="checkbox" name="" value="Yellow" id="check">   Yellow<br>
 
        <h3 class="font">Gender</h3>
        <input type="checkbox" name="" value="Male" id="check">   Male<br>
@@ -73,98 +73,134 @@
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+           <p class="amount" id="Price">₹700</p>
+           <div class="buton">
+             <button>ADD</button>
+           </div>
+          <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container2">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHLNQwiWyCnI8kV0fubFyiHLThQQp6ghirow&s" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star-half"></i>
+          <!-- <i class="fa-solid fa-star"></i> -->
+           <p class="amount" id="Price">₹500</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container3">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://photoskart.com/wp-content/uploads/2022/03/short-hair-indian-girl-in-t-shirt-stock-image.jpg" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+           <p class="amount" id="Price">₹1000</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container4">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://www.beawara.com/cdn/shop/products/Love_Couple_Tee_1080x.jpg?v=1631979507" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star-half"></i>
+           <p class="amount" id="Price">₹550</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container5">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2023/6/314884734/BT/EG/DZ/123679906/da150-500x500.jpg" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+           <p class="amount" id="Price">₹780</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container6">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAg9mW-QoWv8hUOu9LYbi4uUZ9mtPzh9lonA&s" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star"></i>
+           <p class="amount" id="Price">₹1050</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container7">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://5.imimg.com/data5/SELLER/Default/2021/3/XU/YH/YR/8743709/img-20210310-235913-500x500.jpg" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+           <p class="amount" id="Price">₹900</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container8">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://img.freepik.com/premium-vector/be-gentle-typography-t-shirt-design_136545-503.jpg" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star"></i>
+           <p class="amount" id="Price">₹1500</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container9">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPulO3cQ8oYcx2QuwlWVGrqRUVeSa4h0OnmiuGpoGzu5QMjLrWewgWyQsIEcRGc6eDk3A&usqp=CAU" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star-half"></i>
+          <!-- <i class="fa-solid fa-star"></i> -->
+           <p class="amount" id="Price">₹200</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
         <div class="container10">
-          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA" alt="img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCE39odx0dUNLVnSDieuHmRGRKvM83aMgDHw&s" alt="img">
           <br>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
-           <p class="amount">₹700</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, esse!</p>
+          <i class="fa-solid fa-star-half"></i>
+           <p class="amount" id="Price">₹300</p>
+           <div class="buton">
+            <button>ADD</button>
+          </div>
+         <p>MALE | BLACK | PUMA</p>
         </div>
 
       </div>
