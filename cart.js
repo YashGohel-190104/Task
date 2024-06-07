@@ -1,16 +1,39 @@
-const product = [
-    {
-        id: 1,
-        name: "T-Shirt",
-        price: 700 ,
-        gender: "Male",
-        color : "Black",
-        image : "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6olHNBmvG_m1rQPd6sHRWz3WzhOaMtvyAUU5QUhhf4V2gYqvn5oiS6D82cP_arY3TrF34AHeZGCqrUxQ7qU-SegGDJlvewp4jFQPUR6jqjsDclzmbLoUBcA"
-    }
-]
-// @ts-ignore
-const cart = JSON.parse(localStorage.getItem("card"));
+document.addEventListener('DOMContentLoaded', () => {
+    const cartItems = document.getElementById('cartItems');
+    const clearCartButton = document.getElementById('clearCart');
+    // @ts-ignore
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-function saveCart() {
-    localStorage.setItem("cart",JSON.stringify(cart));
-}
+    if (cart.length === 0) {
+        // @ts-ignore
+        cartItems.innerHTML = '<p>Your cart is empty.</p>';
+    } else {
+        cart.forEach(item => {
+            const div = document.createElement('div');
+            div.classList.add('card', 'mb-3');
+            div.innerHTML = `
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="${item.img}" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">${item.price}</h5>
+                            <p class="card-text">${item.description}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+            // @ts-ignore
+            cartItems.appendChild(div);
+        });
+    }
+
+    // @ts-ignore
+    clearCartButton.addEventListener('click', () => {
+        localStorage.removeItem('cart');
+        window.location.reload();
+    });
+        });
+
+
